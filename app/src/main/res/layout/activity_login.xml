@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/pad_40dp" 
+    android:paddingRight="@dimen/pad_40dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/logo_login" />
+
+    <EditText
+        android:id="@+id/user_email"
+        style="@style/txt_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint="@string/email_add"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider"
+        android:background="@color/gray_divider" />
+
+    <EditText
+        android:id="@+id/user_password"
+        style="@style/txt_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_pwd"
+        android:hint="@string/password"
+        android:inputType="textPassword" >
+    </EditText>
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/check_refresh_token"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="left"-->
+        <!--android:text="@string/refresh_token"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:layout_marginTop="@dimen/pad_10dp"-->
+        <!--android:buttonTint="@color/white"/>-->
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/btn_blue_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/pad_20dp"
+        android:layout_marginTop="@dimen/pad_10dp"
+        android:text="@string/sign_in" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider"
+        android:background="@color/dark_divider"
+        android:layout_marginLeft="@dimen/pad_40dp"
+        android:layout_marginRight="@dimen/pad_40dp" />
+
+    <Button
+        android:id="@+id/btnFb"
+        style="@style/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_fb"
+        android:layout_marginTop="@dimen/pad_20dp" />
+    <Button
+        android:id="@+id/btnTw"
+        style="@style/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_tw"
+        android:layout_marginTop="@dimen/pad_10dp"
+        android:visibility="invisible" />
+
+    <!--<Button-->
+        <!--android:id="@+id/btnTw"-->
+        <!--style="@style/btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/pad_10dp"-->
+        <!--android:background="@drawable/btn_tw" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/lblForgot"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/pad_20dp"
+            android:paddingBottom="@dimen/pad_20dp"
+            android:text="@string/forgot_pwd"
+            android:textColor="@color/main_color_blue"
+            android:textSize="@dimen/txt_13sp" />
+
+        <TextView
+            android:id="@+id/lblReg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/pad_20dp"
+            android:paddingBottom="@dimen/pad_20dp"
+            android:text="@string/new_here"
+            android:textColor="@color/main_color_blue"
+            android:textSize="@dimen/txt_13sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

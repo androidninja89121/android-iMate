@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="arr_left_nav_list">
+        <item>Home</item>
+        <item>My Chat</item>
+        <item>Location</item>
+        <item>Settings</item>
+        <item>Invite Friends</item>
+        <item>Log out</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="blue_sky">#33b5e5</color>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.8.2/res/values/values.xml -->
+    <eat-comment/>
+    <color name="com_facebook_blue">#3B5998</color>
+    <color name="com_facebook_button_background_color">#415dae</color>
+    <color name="com_facebook_button_background_color_disabled">#bdc1c9</color>
+    <color name="com_facebook_button_background_color_pressed">#2f477a</color>
+    <color name="com_facebook_button_like_background_color_selected">#7c8fc8</color>
+    <color name="com_facebook_button_login_silver_background_color">#f4f6f8</color>
+    <color name="com_facebook_button_login_silver_background_color_pressed">#e9eaf0</color>
+    <color name="com_facebook_button_send_background_color">#0084ff</color>
+    <color name="com_facebook_button_send_background_color_pressed">#006fff</color>
+    <color name="com_facebook_likeboxcountview_border_color">#6a7180</color>
+    <color name="com_facebook_likeboxcountview_text_color">#6a7180</color>
+    <color name="com_facebook_likeview_text_color">#6a7180</color>
+    <color name="com_facebook_share_button_text_color">#FFFFFF</color>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_colors.xml -->
+    <eat-comment/>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
+    <color name="common_plus_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_dark_disabled">#FFAAAAAA</color>
+    <color name="common_plus_signin_btn_text_dark_focused">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_light_default">#FF737373</color>
+    <color name="common_plus_signin_btn_text_light_disabled">#FFAAAAAA</color>
+    <color name="common_plus_signin_btn_text_light_focused">#FF737373</color>
+    <color name="common_plus_signin_btn_text_light_pressed">#DE000000</color>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="dark_divider">#555c6f</color>
+    <color name="gray">#656464</color>
+    <color name="gray_divider">#e5e5e5</color>
+    <color name="gray_dk">#2c2c2c</color>
+    <color name="green">#2ecc71</color>
+    <color name="holo_blue">#FF33E5B5</color>
+    <color name="main_color_blue">#3b5999</color>
+    <color name="main_color_red">#e33124</color>
+    <color name="main_color_red_dk">#c62b1f</color>
+    <color name="main_color_red_light">#e6a9a9</color>
+    <color name="red_light">#e74c3c</color>
+    <color name="theme_black">#313031</color>
+    <color name="theme_blue">#41b2ec</color>
+    <color name="theme_green">#97e365</color>
+    <color name="theme_red">#e74c3c</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_smoke">#F7F7F7</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="civ_border_width"/><attr format="color" name="civ_border_color"/><attr format="boolean" name="civ_border_overlay"/><attr format="color" name="civ_fill_color"/></declare-styleable>
+    <declare-styleable name="Iconics"><attr format="string" name="ico_icon"/><attr format="color|reference" name="ico_color"/><attr format="dimension|reference" name="ico_size"/><attr format="dimension|reference" name="ico_offset_x"/><attr format="dimension|reference" name="ico_offset_y"/><attr format="dimension|reference" name="ico_padding"/><attr format="color|reference" name="ico_contour_color"/><attr format="dimension|reference" name="ico_contour_width"/><attr format="color|reference" name="ico_background_color"/><attr format="dimension|reference" name="ico_corner_radius"/></declare-styleable>
+    <declare-styleable name="IconicsImageView"><attr format="string" name="iiv_icon"/><attr format="color|reference" name="iiv_color"/><attr format="dimension|reference" name="iiv_size"/><attr format="dimension|reference" name="iiv_padding"/><attr format="color|reference" name="iiv_contour_color"/><attr format="dimension|reference" name="iiv_contour_width"/><attr format="color|reference" name="iiv_background_color"/><attr format="dimension|reference" name="iiv_corner_radius"/></declare-styleable>
+    <declare-styleable name="JazzyViewPager"><attr name="style"><enum name="standard" value="0"/><enum name="tablet" value="1"/><enum name="cubein" value="2"/><enum name="cubeout" value="3"/><enum name="flipvertical" value="4"/><enum name="fliphorizontal" value="5"/><enum name="stack" value="6"/><enum name="zoomin" value="7"/><enum name="zoomout" value="8"/><enum name="rotateup" value="9"/><enum name="rotatedown" value="10"/><enum name="accordion" value="11"/></attr><attr format="boolean" name="fadeEnabled"/><attr format="boolean" name="outlineEnabled"/><attr format="color|reference" name="outlineColor"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference|enum" name="buttonSize"><enum name="standard" value="0"/><enum name="wide" value="1"/><enum name="icon_only" value="2"/></attr><attr format="reference|enum" name="colorScheme"><enum name="dark" value="0"/><enum name="light" value="1"/><enum name="auto" value="2"/></attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
+    <declare-styleable name="com_facebook_like_view"><attr format="color" name="com_facebook_foreground_color"/><attr format="string" name="com_facebook_object_id"/><attr name="com_facebook_object_type"><enum name="unknown" value="0"/><enum name="open_graph" value="1"/><enum name="page" value="2"/></attr><attr name="com_facebook_style"><enum name="standard" value="0"/><enum name="button" value="1"/><enum name="box_count" value="2"/></attr><attr name="com_facebook_auxiliary_view_position"><enum name="bottom" value="0"/><enum name="inline" value="1"/><enum name="top" value="2"/></attr><attr name="com_facebook_horizontal_alignment"><enum name="center" value="0"/><enum name="left" value="1"/><enum name="right" value="2"/></attr></declare-styleable>
+    <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="com_facebook_confirm_logout"/><attr format="string" name="com_facebook_login_text"/><attr format="string" name="com_facebook_logout_text"/><attr name="com_facebook_tooltip_mode"><enum name="automatic" value="0"/><enum name="display_always" value="1"/><enum name="never_display" value="2"/></attr></declare-styleable>
+    <declare-styleable name="com_facebook_profile_picture_view"><attr name="com_facebook_preset_size"><enum name="small" value="-2"/><enum name="normal" value="-3"/><enum name="large" value="-4"/></attr><attr format="boolean" name="com_facebook_is_cropped"/></declare-styleable>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.8.2/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_likeboxcountview_border_radius">3dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_border_width">1dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_caret_height">3dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_caret_width">6dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_text_padding">6dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_text_size">11.0sp</dimen>
+    <dimen name="com_facebook_likeview_edge_padding">2dp</dimen>
+    <dimen name="com_facebook_likeview_internal_padding">6dp</dimen>
+    <dimen name="com_facebook_likeview_text_size">11.0sp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_share_button_compound_drawable_padding">12dp</dimen>
+    <dimen name="com_facebook_share_button_padding_bottom">12dp</dimen>
+    <dimen name="com_facebook_share_button_padding_left">12dp</dimen>
+    <dimen name="com_facebook_share_button_padding_right">16dp</dimen>
+    <dimen name="com_facebook_share_button_padding_top">12dp</dimen>
+    <dimen name="com_facebook_share_button_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="divider">0.75dp</dimen>
+    <dimen name="pad_10dp">10dp</dimen>
+    <dimen name="pad_125dp">125dp</dimen>
+    <dimen name="pad_15dp">15dp</dimen>
+    <dimen name="pad_1dp">1dp</dimen>
+    <dimen name="pad_200dp">200dp</dimen>
+    <dimen name="pad_20dp">20dp</dimen>
+    <dimen name="pad_30dp">30dp</dimen>
+    <dimen name="pad_310dp">310dp</dimen>
+    <dimen name="pad_350dp">350dp</dimen>
+    <dimen name="pad_3dp">3dp</dimen>
+    <dimen name="pad_40dp">40dp</dimen>
+    <dimen name="pad_5dp">5dp</dimen>
+    <dimen name="txt_12sp">12sp</dimen>
+    <dimen name="txt_13sp">13sp</dimen>
+    <dimen name="txt_14sp">14sp</dimen>
+    <dimen name="txt_15sp">15sp</dimen>
+    <dimen name="txt_16sp">16sp</dimen>
+    <dimen name="txt_18sp">18sp</dimen>
+    <dimen name="txt_20sp">20sp</dimen>
+    <dimen name="txt_25sp">25sp</dimen>
+    <dimen name="txt_7sp">7sp</dimen>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <drawable name="theme_black">#313031</drawable>
+    <drawable name="theme_blue">#41b2ec</drawable>
+    <drawable name="theme_green">#97e365</drawable>
+    <drawable name="theme_red">#e74c3c</drawable>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/2.5.10/res/values/values.xml -->
+    <eat-comment/>
+    <item name="iconics_tag_id" type="id"/>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/res/values/version.xml -->
+    <eat-comment/>
+    <integer name="google_play_services_version">8487000</integer>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">About</string>
+    <string name="acc_seting">Account Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="address">Address</string>
+    <string name="all_matches">All Matches</string>
+    <string name="app_id">1705362386406822</string>
+    <string name="app_name">Tieyouin</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/res/values/auth_strings.xml -->
+    <eat-comment/>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="birthday">12/12/1990</string>
+    <string name="chat_setting">Chat Settings</string>
+    <string name="col_theme">Colour Theme</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.8.2/res/values/values.xml -->
+    <eat-comment/>
+    <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_like_button_liked">Liked</string>
+    <string name="com_facebook_like_button_not_liked">Like</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_send_button_text">Send</string>
+    <string name="com_facebook_share_button_text">Share</string>
+    <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml -->
+    <eat-comment/>
+    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_restricted_profile_text">Accessing accounts from a restricted profile is not supported.</string>
+    <string name="common_google_play_services_restricted_profile_title">Restricted Profile</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/res/values/common_strings.xml -->
+    <eat-comment/>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. If the problem persists, please contact the developer for assistance.</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml -->
+    <eat-comment/>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="connected">Connected</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.mikepenz/actionitembadge/3.2.4/res/values/values.xml -->
+    <eat-comment/>
+    <string name="define_AndroidActionItemBadge">year;owner</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/2.5.10/res/values/values.xml -->
+    <eat-comment/>
+    <string name="define_AndroidIconics">year;owner</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.mikepenz/fontawesome-typeface/4.5.0.1/res/values/values.xml -->
+    <eat-comment/>
+    <string name="define_font_fontawesome">com.mikepenz.fontawesome_typeface_library.FontAwesome</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="edit">Edit</string>
+    <string name="email_add">E-mail</string>
+    <string name="error">Failure \n Please try again</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_phone">This phone number is invalid</string>
+    <string name="error_invalid_username">This user name is invalid</string>
+    <string name="fail_log_in">Check your email.</string>
+    <string name="female">Female</string>
+    <string name="forgot_pwd">Forgot password?</string>
+    <string name="from_camera">Camera</string>
+    <string name="from_gallery">Gallery</string>
+    <string name="gen_setting">General Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="invite_ur_frnds">Invite Your Friends</string>
+    <string name="keep_surf">Keep Surfing</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.mikepenz/actionitembadge/3.2.4/res/values/values.xml -->
+    <eat-comment/>
+    <string name="library_AndroidActionItemBadge_author">Mike Penz</string>
+    <string name="library_AndroidActionItemBadge_authorWebsite">http://mikepenz.com/</string>
+    <string name="library_AndroidActionItemBadge_isOpenSource">true</string>
+    <string name="library_AndroidActionItemBadge_libraryDescription">
+        
+        Android-&lt;b>ActionItemBadge&lt;/b> is a library which offers a simple and easy to use method to add a badge to your action item!!
+        
+    </string>
+    <string name="library_AndroidActionItemBadge_libraryName">Android-ActionItemBadge</string>
+    <string name="library_AndroidActionItemBadge_libraryVersion">3.2.4</string>
+    <string name="library_AndroidActionItemBadge_libraryWebsite">https://github.com/mikepenz/Android-ActionItemBadge</string>
+    <string name="library_AndroidActionItemBadge_licenseId">apache_2_0</string>
+    <string name="library_AndroidActionItemBadge_owner">Mike Penz</string>
+    <string name="library_AndroidActionItemBadge_repositoryLink">https://github.com/mikepenz/Android-ActionItemBadge</string>
+    <string name="library_AndroidActionItemBadge_year">2016</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/2.5.10/res/values/values.xml -->
+    <eat-comment/>
+    <string name="library_AndroidIconics_author">Mike Penz</string>
+    <string name="library_AndroidIconics_authorWebsite">http://mikepenz.com/</string>
+    <string name="library_AndroidIconics_isOpenSource">true</string>
+    <string name="library_AndroidIconics_libraryDescription">
+        
+        This library allows you to include vector icons everywhere in your project. No limits are given. Scale with no limit, use any Color at any time, provide a contour, and many additional customizations
+        
+    </string>
+    <string name="library_AndroidIconics_libraryName">Android-Iconics</string>
+    <string name="library_AndroidIconics_libraryVersion">2.5.10</string>
+    <string name="library_AndroidIconics_libraryWebsite">https://github.com/mikepenz/Android-Iconics</string>
+    <string name="library_AndroidIconics_licenseId">apache_2_0</string>
+    <string name="library_AndroidIconics_owner">Mike Penz</string>
+    <string name="library_AndroidIconics_repositoryLink">https://github.com/mikepenz/Android-Iconics</string>
+    <string name="library_AndroidIconics_year">2015</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="loading"> loading </string>
+    <string name="lorem_ipusm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent turpis erat, tristique at auctor non, fermentum auctor tellus. Ut nisi elit, luctus sit amet lectus egestas, trices congue lacus. Praesent ut ornare lectus. Suspen tum consequat viverra.</string>
+    <string name="male">Male</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.8.2/res/values/values.xml -->
+    <eat-comment/>
+    <string name="messenger_send_button_text">Send</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="need_log_in">You need to login first.</string>
+    <string name="net_status">Network Status</string>
+    <string name="new_here"><u>New here? Sign Up</u></string>
+    <string name="no_one_around">There’s no one new around you!</string>
+    <string name="notification">Notifications</string>
+    <string name="ok"> OK </string>
+    <string name="or">or</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone number</string>
+    <string name="photo_over_size">Please choose less than 5M. </string>
+    <string name="photo_upload_fail">Fail to upload profile.\nPlease try again.</string>
+    <string name="photo_upload_success">Success to upload profile</string>
+    <string name="picker_cancel">Cancel</string>
+    <string name="picker_title">Choose image to upload</string>
+    <string name="refresh_token">Use Refresh Tokens</string>
+    <string name="register">Register</string>
+    <string name="restore_def">Restore defaults</string>
+    <string name="save_gal">Save to gallery</string>
+    <string name="scan_again">Scan Again</string>
+    <string name="search">Search</string>
+    <string name="send">Send</string>
+    <string name="sign_in">Sign in</string>
+    <string name="start_conv">Start a conversation</string>
+    <string name="tell_frnd">Tell a friend</string>
+    <string name="type_msg">Type your message</string>
+    <string name="user_exit">User already exist.</string>
+    <string name="user_not_exist">User does not exit.</string>
+    <string name="user_old_problem">Need to be more than 13 years old.</string>
+    <string name="username">Username</string>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.8.2/res/values/values.xml -->
+    <eat-comment/>
+    <style name="MessengerButton">
+    <item name="android:clickable">true</item>
+  </style>
+    <style name="MessengerButton.Blue">
+    <item name="android:background">@drawable/messenger_button_blue_bg_selector</item>
+  </style>
+    <style name="MessengerButton.Blue.Large">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">44dp</item>
+    <item name="android:layout_marginLeft">16dp</item>
+    <item name="android:layout_marginRight">16dp</item>
+  </style>
+    <style name="MessengerButton.Blue.Small">
+    <item name="android:layout_width">158dp</item>
+    <item name="android:layout_height">36dp</item>
+  </style>
+    <style name="MessengerButton.White">
+    <item name="android:background">@drawable/messenger_button_white_bg_selector</item>
+  </style>
+    <style name="MessengerButton.White.Large">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">44dp</item>
+    <item name="android:layout_marginLeft">16dp</item>
+    <item name="android:layout_marginRight">16dp</item>
+  </style>
+    <style name="MessengerButton.White.Small">
+    <item name="android:layout_width">158dp</item>
+    <item name="android:layout_height">36dp</item>
+  </style>
+    <style name="MessengerButtonText">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:drawablePadding">4dp</item>
+    <item name="android:gravity">center</item>
+    <!--suppress NewApi -->
+    <item name="android:textAllCaps">true</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+    <style name="MessengerButtonText.Blue">
+    <item name="android:textColor">#ffffff</item>
+  </style>
+    <style name="MessengerButtonText.Blue.Large">
+    <item name="android:drawableLeft">@drawable/messenger_bubble_large_white</item>
+  </style>
+    <style name="MessengerButtonText.Blue.Small">
+    <item name="android:drawableLeft">@drawable/messenger_bubble_small_white</item>
+  </style>
+    <style name="MessengerButtonText.White">
+    <item name="android:textColor">#0084ff</item>
+  </style>
+    <style name="MessengerButtonText.White.Large">
+    <item name="android:drawableLeft">@drawable/messenger_bubble_large_blue</item>
+  </style>
+    <style name="MessengerButtonText.White.Small">
+    <item name="android:drawableLeft">@drawable/messenger_bubble_small_blue</item>
+  </style>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="btn" parent="android:Widget.Holo.Light.Button">
+        <item name="android:minHeight">1dp</item>
+        <item name="android:minWidth">1dp</item>
+    </style>
+    <style name="btn_blue_white" parent="@style/btn">
+        <item name="android:background">@color/white</item>
+        <item name="android:padding">@dimen/pad_10dp</item>
+        <item name="android:textColor">@color/main_color_blue</item>
+        <item name="android:textSize">@dimen/txt_16sp</item>
+    </style>
+    <style name="btn_red_white" parent="@style/btn">
+        <item name="android:background">@color/white</item>
+        <item name="android:padding">@dimen/pad_10dp</item>
+        <item name="android:textColor">@color/main_color_red</item>
+        <item name="android:textSize">@dimen/txt_16sp</item>
+    </style>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.8.2/res/values/values.xml -->
+    <eat-comment/>
+    <style name="com_facebook_button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/com_facebook_button_background</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14.0dp</item>
+    </style>
+    <style name="com_facebook_button_like" parent="com_facebook_button">
+        <item name="android:background">@drawable/com_facebook_button_like_background</item>
+    </style>
+    <style name="com_facebook_button_send" parent="com_facebook_button">
+        <item name="android:background">@drawable/com_facebook_button_send_background</item>
+        <item name="android:drawableLeft">@drawable/com_facebook_button_send_icon</item>
+        <item name="android:text">@string/com_facebook_send_button_text</item>
+    </style>
+    <style name="com_facebook_button_share" parent="com_facebook_button">
+        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
+        <item name="android:text">@string/com_facebook_share_button_text</item>
+    </style>
+    <style name="com_facebook_loginview_default_style" parent="com_facebook_button">
+        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="com_facebook_loginview_default_style">
+        <item name="android:background">@drawable/com_facebook_button_login_silver_background</item>
+        <item name="android:drawableLeft">@null</item>
+        <item name="android:textColor">#4b5164</item>
+    </style>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="custom_switch">
+          <item name="android:textColor">@color/white</item>
+          <item name="android:textSize">@dimen/txt_14sp</item>
+          <item name="android:thumb">@drawable/switch_thumb</item>
+          <item name="android:track">@drawable/switch_bg</item>
+     </style>
+    <style name="edittext_msg" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:ems">10</item>
+        <item name="android:imeActionId">100</item>
+        <item name="android:imeOptions">actionSend</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_marginLeft">@dimen/pad_5dp</item>
+        <item name="android:layout_marginRight">@dimen/pad_10dp</item>
+        <item name="android:paddingLeft">@dimen/pad_5dp</item>
+        <item name="android:paddingRight">@dimen/pad_5dp</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textColor">@color/gray_dk</item>
+        <item name="android:textSize">@dimen/txt_14sp</item>
+    </style>
+    <style name="img_profile">
+          <item name="android:background">@drawable/pic_frame</item>
+          <item name="android:padding">@dimen/pad_5dp</item>
+          <item name="android:scaleType">fitXY</item>
+     </style>
+    <style name="lbl_14gray" parent="android:Widget.Holo.Light.TextView">
+          <item name="android:textColor">@color/gray_dk</item>
+          <item name="android:textSize">@dimen/txt_14sp</item>
+     </style>
+    <style name="lbl_profile" parent="@style/lbl_14gray">
+          <item name="android:drawablePadding">@dimen/pad_3dp</item>
+          <item name="android:gravity">center_horizontal</item>
+          <item name="android:layout_marginRight">@dimen/pad_5dp</item>
+     </style>
+    <style name="lbl_setting1" parent="android:Widget.Holo.Light.TextView">
+          <item name="android:textColor">@color/gray_dk</item>
+          <item name="android:textSize">@dimen/txt_16sp</item>
+     </style>
+    <style name="lbl_setting2" parent="android:Widget.Holo.Light.TextView">
+          <item name="android:padding">@dimen/pad_10dp</item>
+          <item name="android:textColor">@color/main_color_blue</item>
+          <item name="android:textSize">@dimen/txt_13sp</item>
+     </style>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.8.2/res/values/values.xml -->
+    <eat-comment/>
+    <style name="tooltip_bubble_text">
+	    <item name="android:textColor">@android:color/white</item>
+	    <item name="android:gravity">left</item>
+	    <item name="android:textSize">12sp</item>
+	    <item name="android:shadowDy">-1</item>
+	    <item name="android:shadowRadius">0.25</item>
+	    <item name="android:shadowColor">#40000000</item>
+    </style>
+    <!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="txt_dk_gray" parent="@style/txt_white">
+        <item name="android:background">@color/gray_dk</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+    <style name="txt_white" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:background">@color/white</item>
+        <item name="android:drawablePadding">@dimen/pad_10dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:padding">@dimen/pad_10dp</item>
+        <item name="android:textColor">@color/gray_dk</item>
+        <item name="android:textSize">@dimen/txt_16sp</item>
+    </style>
+</resources>

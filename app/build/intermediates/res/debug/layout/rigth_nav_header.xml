@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/pad_10dp"
+    android:background="@color/black" >
+
+<EditText
+    android:id="@+id/editText1"
+    style="@style/txt_dk_gray"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/ic_search"
+    android:hint="@string/search" >
+
+    </EditText>
+</LinearLayout>
+<!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/layout/rigth_nav_header.xml -->

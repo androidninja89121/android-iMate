@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_request"
+        android:icon="@drawable/ic_request"
+        android:showAsAction="always"
+        android:title="@string/edit"
+        />
+
+    <item
+        android:id="@+id/menu_alarm"
+        android:icon="@drawable/ic_alarm"
+        android:showAsAction="always"
+        android:title="@string/edit"
+        />
+
+    <item
+        android:id="@+id/menu_chat"
+
+        android:icon="@drawable/ic_chat"
+        android:showAsAction="always"
+        android:title="@string/all_matches"
+        />
+</menu>
+<!-- From: file:/D:/Work/Android%20Studio/iMate%20Main/app/src/main/res/menu/main.xml -->
